@@ -1,5 +1,6 @@
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     padding: 15px;
@@ -8,7 +9,6 @@
 }
 
 .item {
-    
     color: rgb(247, 243, 243);
     text-transform: uppercase;
     text-decoration: none;
@@ -32,6 +32,7 @@
 }
 .center {
     display: flex;
+    flex-wrap: wrap;
     background-color: honeydew;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
